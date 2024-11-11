@@ -2,11 +2,11 @@ package school.mjc.stage0.loops.finalTask;
 
 public class Power {
     public void printPower(int numberToPrint, int power) {
-        int result = 0;
+       
         for (int i = 2 ; i <= power; i++){
-            result *= numberToPrint ;
+            numberToPrint *= numberToPrint ;
         }
-        System.out.println(result);
+        System.out.println(numberToPrint);
     }
 
 
