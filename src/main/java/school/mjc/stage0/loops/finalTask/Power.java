@@ -4,7 +4,7 @@ public class Power {
     public void printPower(int numberToPrint, int power) {
         int result = 0;
         for (int i = 2 ; i <= power; i++){
-            result = numberToPrint * numberToPrint;
+            result *= numberToPrint ;
         }
         System.out.println(result);
     }
